@@ -4,6 +4,160 @@ body {
   height: 100%;
 }
 
+
+
+header {
+  background-image: url("../images/your_verse_hero.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  display: grid;
+  padding: 40px 0;
+  grid-template-areas:
+    "nav nav nav"
+    "content content content";
+}
+
+nav {
+  max-width: 1200px;
+  margin: auto;
+  grid-area: nav;
+}
+
+nav ul {
+  border-radius: 10px;
+  height: 38px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  background: linear-gradient(
+    180deg,
+    rgb(136, 136, 136) 29%,
+    rgba(112, 114, 112, 1) 50%,
+    rgb(128, 128, 128) 50%,
+    rgba(112, 112, 112, 1) 51%,
+    rgb(99, 96, 96) 29%
+  );
+}
+
+nav ul > li {
+  background: linear-gradient(
+    180deg,
+    rgb(136, 136, 136) 29%,
+    rgba(112, 114, 112, 1) 50%,
+    rgb(128, 128, 128) 50%,
+    rgba(112, 112, 112, 1) 51%,
+    rgb(99, 96, 96) 29%
+  );
+  padding: 0 30px;
+  color: #eae9e9;
+  box-shadow: -1px 0 0 1px rgba(154, 154, 154, 0.47);
+  border-right: 1px solid rgba(0, 0, 0, 0.88);
+  font-size: 12px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+nav ul li:first-child i {
+  font-size: 20px;
+}
+
+nav ul li:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+nav ul li:last-child {
+  border-radius: 0 5px 5px 0;
+  padding: 5px 5px;
+}
+
+nav ul li form {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+form button {
+  position: absolute;
+  left: 15%;
+}
+
+nav ul li form button,
+input {
+  border: 0;
+  color: white;
+  background: 0;
+}
+
+form input {
+  box-shadow: 0 -1px 5px 0 rgb(66, 63, 63);
+  background-image: 
+      linear-gradient(180deg,
+    rgb(136, 136, 136) 29%,
+    rgba(112, 114, 112, 1) 50%,
+    rgb(128, 128, 128) 50%,
+    rgba(112, 112, 112, 1) 51%,
+    rgb(99, 96, 96) 29%
+  );
+  border-radius: 50px;
+  padding: 3px 0;
+  transition: ease-in-out 0.3s;
+  width: 110px;
+  margin: 0 10px;
+}
+
+form input:focus {
+  background: transparent;
+  width: 120%;
+  border: none;
+  outline: none;
+  padding-left: 45px;
+  color: white;
+}
+
+.header-content {
+  display: grid;
+  grid-area: content;
+  grid-template-areas:
+    "h1 h1 h1"
+    "h2 h2 h2"
+    "h3 h3 h3";
+}
+
+.header-content > * {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+.header-h1 {
+  font-size: 50px;
+  grid-area: h1;
+}
+
+.header-h2 {
+  font-size: 30px;
+  grid-area: h2;
+}
+
+.header-h3 {
+  font-size: 25px;
+  grid-area: h3;
+}
+
+
+
+
+
+
+
+
+
 a {
   text-decoration: none;
   color: rgb(0, 136, 204);
