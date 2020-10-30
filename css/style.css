@@ -20,21 +20,26 @@ a {
 
 .a1 {
   grid-area: a1;
-  background-image: url("/images/3apple.jpg");
-  /* background-color: yellow; */
+  background-image: url("/images/5s.png");
   background-size: cover;
 }
 
 .a2 {
   grid-area: a2;
+  background-image: url("/images/5c.jpg");
+  background-size: cover;
 }
 
 .a3 {
   grid-area: a3;
+  background-image: url("/images/3apple.jpg");
+  background-size: cover;
 }
 
 .a4 {
   grid-area: a4;
+  background-image: url("/images/imac.jpg");
+  background-size: cover;
 }
 
 .a5 {
@@ -66,6 +71,7 @@ a {
 }
 
 .items {
+  /* background-color: red; */
   margin: 0;
   padding: 0;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana,
@@ -73,9 +79,6 @@ a {
   font-size: 10px;
   font-weight: 400;
   overflow: hidden;
-}
-
-.items img {
 }
 
 .a6 .span {
