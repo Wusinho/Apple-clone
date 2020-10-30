@@ -10,42 +10,42 @@ header {
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  /* height: 100vh; */
+  height: 80vh;
   display:grid;
+  padding: 40px 0;
   grid-template-areas: 
   "nav nav nav"
-  "h1 h1 h1 "
-  "h2 h2 h2 "
-  "h3 h3 h3 ";
-  grid-template-columns:1fr;
-  text-align:center;
-  padding: 60px 0;
+  "content content content"
+  ;
 }
 nav{
-  width:80%;
-  margin: 0 auto;
-  grid-area: nav;
+  max-width:1200px;
+  margin: auto;
+  grid-area:nav;
 }
 nav ul {
+  border-radius:10px;
+  height: 38px;
   display: flex;
     justify-content: space-between;
     list-style-type: none;
     background: linear-gradient(180deg, rgb(136, 136, 136) 29%,rgba(112,114,112,1) 50%, rgb(128, 128, 128) 50% ,rgba(112,112,112,1) 51%, rgb(99, 96, 96) 29%);
-  }
-  
-  nav ul > li {
-    background: linear-gradient(180deg, rgb(136, 136, 136) 29%,rgba(112,114,112,1) 50%, rgb(128, 128, 128) 50% ,rgba(112,112,112,1) 51%, rgb(99, 96, 96) 29%);
-    padding:0px 36px;
-    color: #eae9e9;
-  box-shadow:0px 0px 1px 1px rgba(154, 154, 154, 0.47);
-  border-right: 1px solid black;
-  font-size: 15px;
+}
+ 
+nav ul > li {
+  background: linear-gradient(180deg, rgb(136, 136, 136) 29%,rgba(112,114,112,1) 50%, rgb(128, 128, 128) 50% ,rgba(112,112,112,1) 51%, rgb(99, 96, 96) 29%);
+  padding: 0px 30px;
+  color: #eae9e9;
+  box-shadow: -1px 0px 0px 1px rgba(154, 154, 154, 0.47);
+  border-right: 1px solid rgba(0, 0, 0, 0.88);
+  font-size: 12px;
   font-weight: 900;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 nav ul li:first-child i{
-  font-size:25px;
+  font-size:20px;
 }
 nav ul li:last-child{
   border-right: 0;
@@ -56,12 +56,13 @@ nav ul li:first-child{
 }
 nav ul li:last-child{
   border-radius: 0 5px 5px 0;
-  padding: 5px 10px;
+  padding: 5px 5px;
  }
  nav ul li form{
    display:flex;
    align-items: center;
-   position:relative
+   position:relative;
+   justify-content:center;
   }
  nav ul li form button,input {
    border:0;
@@ -70,44 +71,45 @@ nav ul li:last-child{
  }
  form button{
    position: absolute;
-   left: 5%;
+   left: 15%;
  }
  form input{
-  border: 1px solid black;
-  box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.75);
+  box-shadow:0px -1px 5px 0px rgb(66, 63, 63);
   background: linear-gradient(180deg, rgb(136, 136, 136) 29%,rgba(112,114,112,1) 50%, rgb(128, 128, 128) 50% ,rgba(112,112,112,1) 51%, rgb(99, 96, 96) 29%);
   border-radius: 50px;
-  padding: 5px;
+  padding: 3px 0;
   transition: ease-in-out 0.3s;
-  width: 70%;
+  width: 110px;
+  margin: 0 10px;
  }
  form input:focus{
    background: white;
-   width: 100%;
-   
+   width: 120%;
  }
- .header-content{
-   text-align:center;
-
-  }
-  .header-content h1{
-  font-size: 70px;
-  font-weight: 100;
-  color: white;
+.header-content{
+  display:grid;
+  grid-area:content;
+  grid-template-areas: 
+  "h1 h1 h1"
+  "h2 h2 h2"
+  "h3 h3 h3"
+  ;
+}
+.header-content > * {
+  color:white;
   font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  text-align:center;
+}
+ .header-h1{
+  font-size: 50px;
   grid-area: h1;
- }
- .header-content h2{
-   font-weight: 100;
-   font-size:35px;
-   color:white;
-   font-family: "Open Sans", sans-serif;
-   padding: 40px 0;
-   grid-area: h2;
- }
- .header-content h3{
-   font-size: 24px;
-   color: white;
-   font-family: "Open Sans", sans-serif;
+}
+.header-h2{
+  font-size:30px;
+  grid-area: h2;
+}
+.header-h3{
+   font-size: 25px;
    grid-area:h3;
  }
