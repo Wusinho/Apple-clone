@@ -75,8 +75,7 @@ a {
 .items {
   margin: 0;
   padding: 0;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana,
-    sans-serif;
+  font-family: sans-serif;
   font-size: 10px;
   font-weight: 400;
   overflow: hidden;
@@ -123,9 +122,10 @@ a {
       "a6 a6 a6 a6"
       "a7 a7 a7 a7";
   }
+
   .a5,
   .a6,
   .a7 {
     margin-left: 20px;
   }
-} ;
+}
