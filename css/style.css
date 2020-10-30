@@ -20,25 +20,25 @@ a {
 
 .a1 {
   grid-area: a1;
-  background-image: url("/images/5s.png");
+  background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s.jpg");
   background-size: cover;
 }
 
 .a2 {
   grid-area: a2;
-  background-image: url("/images/5c.jpg");
+  background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg");
   background-size: cover;
 }
 
 .a3 {
   grid-area: a3;
-  background-image: url("/images/3apple.jpg");
+  background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg");
   background-size: cover;
 }
 
 .a4 {
   grid-area: a4;
-  background-image: url("/images/imac.jpg");
+  background-image: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg");
   background-size: cover;
 }
 
