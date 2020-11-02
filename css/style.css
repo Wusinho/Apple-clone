@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  /* height: 100%; */
 }
 
 header {
@@ -39,11 +38,11 @@ nav ul {
   list-style-type: none;
   background: linear-gradient(
     180deg,
-    rgb(136, 136, 136) 29%,
-    rgba(112, 114, 112, 1) 50%,
-    rgb(128, 128, 128) 50%,
-    rgba(112, 112, 112, 1) 51%,
-    rgb(99, 96, 96) 29%
+    #888 29%,
+    #808080 50%,
+    #808080 50%,
+    #707070 51%,
+    #636060 29%
   );
 }
 
@@ -162,8 +161,6 @@ a {
 }
 
 .container {
-  /* width: 100%; */
-  /* height: 110vh; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: minmax(185px, 300px) 40px 40px;
