@@ -161,6 +161,7 @@ a {
 }
 
 .container {
+  height: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: minmax(185px, 300px) 40px 40px;

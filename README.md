@@ -6,7 +6,7 @@
 
 This assignment consists of making a clone of Apple's web page.
 
-![screenshot](./images/NyT.png)
+![screenshot](./images/screenshot.png)
 
 - Align all elements with float and flex or grid.
 - The CSS background should cover the whole page irrespective of the screen size.
@@ -19,7 +19,7 @@ This assignment consists of making a clone of Apple's web page.
 
 ## Live Demo
 
-[Live Demo Link](https://wusinho.github.io/NY-times/)
+[Live Demo Link](https://wusinho.github.io/Apple-clone/)
 
 😎 **Abdo Amin**
 
