@@ -177,22 +177,22 @@ a {
 
 .a1 {
   grid-area: a1;
-  background-image: url("/images/5s.png");
+  background-image: url("../images/5s.png");
 }
 
 .a2 {
   grid-area: a2;
-  background-image: url("/images/5c.jpg");
+  background-image: url("../images/5c.jpg");
 }
 
 .a3 {
   grid-area: a3;
-  background-image: url("/images/3apple.jpg");
+  background-image: url("../images/3apple.jpg");
 }
 
 .a4 {
   grid-area: a4;
-  background-image: url("/images/imac.jpg");
+  background-image: url("../images/imac.jpg");
 }
 
 .a1,
