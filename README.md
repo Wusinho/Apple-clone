@@ -6,7 +6,7 @@
 
 This assignment consists of making a clone of Apple's web page.
 
-![screenshot](./images/screenshot.png)
+![screenshot](./images/Screenshot.png)
 
 - Align all elements with float and flex or grid.
 - The CSS background should cover the whole page irrespective of the screen size.
