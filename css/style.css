@@ -36,25 +36,27 @@ nav ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  background: linear-gradient(
-    180deg,
-    #888 29%,
-    #808080 50%,
-    #808080 50%,
-    #707070 51%,
-    #636060 29%
-  );
+  background:
+    linear-gradient(
+      180deg,
+      #888 29%,
+      #808080 50%,
+      #808080 50%,
+      #707070 51%,
+      #636060 29%
+    );
 }
 
 nav ul > li {
-  background: linear-gradient(
-    180deg,
-    rgb(136, 136, 136) 29%,
-    rgba(112, 114, 112, 1) 50%,
-    rgb(128, 128, 128) 50%,
-    rgba(112, 112, 112, 1) 51%,
-    rgb(99, 96, 96) 29%
-  );
+  background:
+    linear-gradient(
+      180deg,
+      rgb(136, 136, 136) 29%,
+      rgba(112, 114, 112, 1) 50%,
+      rgb(128, 128, 128) 50%,
+      rgba(112, 112, 112, 1) 51%,
+      rgb(99, 96, 96) 29%
+    );
   padding: 0 30px;
   color: #eae9e9;
   box-shadow: -1px 0 0 1px rgba(154, 154, 154, 0.47);
@@ -100,14 +102,15 @@ input {
 
 form input {
   box-shadow: 0 -1px 5px 0 rgb(66, 63, 63);
-  background-image: linear-gradient(
-    180deg,
-    rgb(136, 136, 136) 29%,
-    rgba(112, 114, 112, 1) 50%,
-    rgb(128, 128, 128) 50%,
-    rgba(112, 112, 112, 1) 51%,
-    rgb(99, 96, 96) 29%
-  );
+  background-image:
+    linear-gradient(
+      180deg,
+      rgb(136, 136, 136) 29%,
+      rgba(112, 114, 112, 1) 50%,
+      rgb(128, 128, 128) 50%,
+      rgba(112, 112, 112, 1) 51%,
+      rgb(99, 96, 96) 29%
+    );
   border-radius: 50px;
   padding: 3px 0;
   transition: ease-in-out 0.3s;
