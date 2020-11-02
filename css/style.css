@@ -11,14 +11,14 @@ header {
   background-repeat: no-repeat;
   height: 80vh;
   display: grid;
-  /* padding: 40px 0; */
+  padding: 40px 0;
   grid-template-areas:
     "nav nav nav"
     "content content content";
 }
 
 nav {
-  /* max-width: 1200px; */
+  max-width: 1200px;
   margin: auto;
   grid-area: nav;
 }
