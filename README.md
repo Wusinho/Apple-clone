@@ -29,9 +29,9 @@ This assignment consists of making a clone of Apple's web page.
 
 👤 **Heber Lazo**
 
-- [@lazo_heber](https://www.linkedin.com/in/heber-lazo-benza-523266133/) [<img align="left" alt="lazo_heber | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
+- [@lazo_heber](https://www.linkedin.com/in/heber-lazo-benza-523266133/) [<img align="left" alt="codeSTACKr | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
-- [@lazo_heber](https://twitter.com/lazo_heber) [<img align="left" alt="codeSTACKr | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+- [@lazo_heber](https://twitter.com/lazo_heber) [<img align="left" alt="lazo_heber | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
 
 ## 🤝 Contributing
 
