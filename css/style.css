@@ -4,14 +4,19 @@ body {
   height: 100%;
 }
 
+header{
+  display:flex;
+  justify-content: center;
+  width:100%;
+}
 
-
-header {
+.header-img {
+  width:100%;
   background-image: url("../images/your_verse_hero.jpg");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 100%;
   display: grid;
   padding: 40px 0;
   grid-template-areas:
@@ -26,6 +31,7 @@ nav {
 }
 
 nav ul {
+  padding: 0;
   border-radius: 10px;
   height: 38px;
   display: flex;
@@ -165,7 +171,7 @@ a {
 
 .container {
   width: 100%;
-  height: 110vh;
+  height: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 300px 40px 40px;
