@@ -5,11 +5,22 @@
 # Building with Backgrounds and Gradients
 
 This assignment consists of making a clone of Apple's web page.
+In this part of the project we used:
 
-![screenshot](./images/Screenshot.png)
+- HTML5
+- HTML5 semantic
+- CSS3
+- flex box
+- css grid
+- styleling
+- Background-image
+- Linear Gradient
 
+ In this project we made sure to consider to :
 - Align all elements with float and flex or grid.
 - The CSS background should cover the whole page irrespective of the screen size.
+
+![screenshot](./images/Screenshot.png)
 
 ## Built With
 
